@@ -1,5 +1,6 @@
 from PIL import Image
 import os
+import imageio
 
 white = (255, 255, 255)
 
@@ -303,6 +304,10 @@ for img_file in os.listdir('.'):
     if img_file.endswith('.png') and img_file != 'Descartes_snark.png':
         img_name, extension = img_file.split('.')
 
-        image = Image.open(img_name)
+        image = Image.open(img_file)
         add_province_indicators(image)
-        image.save(img_name + '_with_provinces', '.tga')
+        temp_filename = f'{img_name}_with_provinces'
+        image.save(temp_filename + '.tga')#//, '.png')
+        # png_image = imageio.imread(temp_filename + '.png')
+        # imageio.imwrite(temp_filename + '.tga')
+        # os.remove(temp_filename + '.png')
