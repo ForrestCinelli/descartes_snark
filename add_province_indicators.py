@@ -300,7 +300,7 @@ def add_province_indicators(snark: Image) -> None:
 
 
 for img_file in os.listdir('.'):
-    if extension == '.png':
+    if img_file.endswith('.png') and img_file != 'Descartes_snark.png':
         img_name, extension = img_file.split('.')
 
         image = Image.open(img_name)
