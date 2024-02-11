@@ -1,6 +1,5 @@
 from PIL import Image
 import os
-import imageio
 
 white = (255, 255, 255)
 
@@ -20,7 +19,7 @@ def add_province_indicators(snark: Image) -> None:
     snark.putpixel((7011, 5141), white)
     snark.putpixel((7257, 5313), white)
 
-    snark.putpixel((5687, 5209), white)
+    snark.putpixel((7684, 5209), white)
     snark.putpixel((7880, 4611), white)
     snark.putpixel((7553, 4384), white)
     snark.putpixel((7235, 4144), white)
@@ -180,7 +179,7 @@ def add_province_indicators(snark: Image) -> None:
     snark.putpixel((2511, 5512), white)
     snark.putpixel((2271, 5777), white)
     snark.putpixel((2032, 6038), white)
-    snark.putpixel((2358, 6238), white)
+    snark.putpixel((2358, 6283), white)
     snark.putpixel((2680, 6516), white)
     snark.putpixel((2776, 6347), white)
 
@@ -307,7 +306,4 @@ for img_file in os.listdir('.'):
         image = Image.open(img_file)
         add_province_indicators(image)
         temp_filename = f'{img_name}_with_provinces'
-        image.save(temp_filename + '.tga')#//, '.png')
-        # png_image = imageio.imread(temp_filename + '.png')
-        # imageio.imwrite(temp_filename + '.tga')
-        # os.remove(temp_filename + '.png')
+        image.save(temp_filename + '.tga')
