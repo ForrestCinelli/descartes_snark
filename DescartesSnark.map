@@ -1,7 +1,7 @@
 #dom2title Descartes' Snark
 #description "In the mathematical field of graph theory, a Descartes snark is an undirected graph with 210 vertices and 315 edges. It is a cubic graph, meaning all vertices have three edges. This map has 15 additional provinces, each capital. It is a snark, first discovered by William Tutte in 1948 under the pseudonym Blanche Descartes.A Descartes snark is obtained from the Petersen graph by replacing each vertex with a nonagon and each edge with a particular graph closely related to the Petersen graph. "
 
-#imagefile des_snark.tga
+#imagefile DescartesSnark.tga
 
 #planename Descartes' Snark
 
