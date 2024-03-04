@@ -6,3 +6,4 @@ rm -rf DescartesSnark
 mkdir DescartesSnark
 mv *.tga DescartesSnark
 cp DescartesSnark.map DescartesSnark
+cp Steam/* DescartesSnark
