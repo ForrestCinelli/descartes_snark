@@ -305,4 +305,4 @@ for img_file in os.listdir('.'):
 
         image = Image.open(img_file)
         add_province_indicators(image)
-        image.save(img_name + '.tga')
+        image.save(img_name + '.png')
