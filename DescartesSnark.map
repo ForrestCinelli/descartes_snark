@@ -7,7 +7,7 @@
 
 -- Title and image file
 #dom2title Descartes' Snark
-#imagefile DescartesSnark.tga
+#imagefile DescartesSnark.png
 #mapsize 8000 8000
 #domversion 550
 #nodeepcaves
