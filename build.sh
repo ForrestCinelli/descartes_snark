@@ -2,8 +2,9 @@
 
 python add_province_indicators.py
 
-rm -rf DescartesSnark
+mv DescartesSnark DescartesSnarkBackup
 mkdir DescartesSnark
 mv *.tga DescartesSnark
 cp DescartesSnark.map DescartesSnark
 cp Steam/* DescartesSnark
+rm -rf DescartesSnarkBackup
