@@ -299,10 +299,8 @@ def add_province_indicators(snark: Image) -> None:
     snark.putpixel((3454, 5961), white)
 
 
-for img_file in os.listdir('.'):
+for img_file in os.listdir('base_images'):
     if img_file.endswith('.png') and img_file != 'Descartes_snark.png':
-        img_name, extension = img_file.split('.')
-
-        image = Image.open(img_file)
+        image = Image.open('base_images/' + img_file)
         add_province_indicators(image)
-        image.save(img_name + '.png')
+        image.save(img_file) # move it to root dir
