@@ -303,4 +303,4 @@ for img_file in os.listdir('base_images'):
     if img_file.endswith('.png') and img_file != 'Descartes_snark.png':
         image = Image.open('base_images/' + img_file)
         add_province_indicators(image)
-        image.save(img_file) # move it to root dir
+        image.save(img_file, compression='tga_rle') # move it to root dir
