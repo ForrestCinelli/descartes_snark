@@ -7,7 +7,8 @@ python add_province_indicators.py
 
 [ -d 'DescartesSnark' ] && mv DescartesSnark DescartesSnarkBackup
 mkdir DescartesSnark
-mv *.png DescartesSnark
+mv *.tga DescartesSnark
 cp DescartesSnark.map DescartesSnark
-cp Steam/* DescartesSnark
+cp Steam/Banner.png DescartesSnark
+cp Steam/dom6ws.txt DescartesSnark
 rm -rf DescartesSnarkBackup
