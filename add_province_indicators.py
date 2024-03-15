@@ -304,4 +304,4 @@ for img_file in os.listdir('base_images'):
         file_name, ext = img_file.split('.')
         image = Image.open('base_images/' + img_file)
         add_province_indicators(image)
-        image.save(img_file + '.tga', compression='tga_rle') # move it to root dir
+        image.save(file_name + '.tga', compression='tga_rle') # move it to root dir
