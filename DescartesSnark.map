@@ -256,8 +256,16 @@
 #neighbour 4 9
 #neighbour 5 8
 #neighbour 5 14
+#neighbour 5 42
+#neighbourspec 5 42 33
+#neighbour 5 20
+#neighbourspec 5 20 2
 #neighbour 6 7
 #neighbour 6 13
+#neighbour 6 19
+#neighbourspec 6 19 2
+#neighbour 6 45
+#neighbourspec 6 45 33
 #neighbour 7 10
 #neighbour 7 8
 #neighbour 7 9
@@ -280,8 +288,12 @@
 #neighbour 18 28
 #neighbour 19 27
 #neighbour 19 24
+#neighbour 19 45
+#neighbourspec 19 45 2
 #neighbour 20 23
 #neighbour 20 26
+#neighbour 20 42
+#neighbourspec 20 42 2
 #neighbour 21 37
 #neighbour 21 25
 #neighbour 22 36
@@ -336,11 +348,23 @@
 #neighbour 47 55
 #neighbour 48 53
 #neighbour 49 55
+#neighbour 49 72
+#neighbourspec 49 72 33
+#neighbour 49 51
+#neighbourspec 49 51 33
 #neighbour 50 54
+#neighbour 50 52
+#neighbourspec 50 52 33
+#neighbour 50 70
+#neighbourspec 50 70 33
 #neighbour 51 57
 #neighbour 51 84
+#neighbour 51 72
+#neighbourspec 51 72 2
 #neighbour 52 56
 #neighbour 52 83
+#neighbour 52 70
+#neighbourspec 52 70 2
 #neighbour 53 54
 #neighbour 54 74
 #neighbour 55 71
@@ -431,7 +455,15 @@
 #neighbour 100 121
 #neighbour 101 120
 #neighbour 102 104
+#neighbour 102 153
+#neighbourspec 102 153 2
+#neighbour 102 192
+#neighbourspec 102 192 33
 #neighbour 103 105
+#neighbour 103 152
+#neighbourspec 103 152 2
+#neighbour 103 191
+#neighbourspec 103 191 33
 #neighbour 104 134
 #neighbour 105 133
 #neighbour 106 124
@@ -439,7 +471,15 @@
 #neighbour 107 125
 #neighbour 107 109
 #neighbour 108 120
+#neighbour 108 144
+#neighbourspec 108 144 33
+#neighbour 108 158
+#neighbourspec 108 158 2
 #neighbour 109 121
+#neighbour 109 157
+#neighbourspec 109 157 2
+#neighbour 109 143
+#neighbourspec 109 143 33
 #neighbour 110 122
 #neighbour 110 128
 #neighbour 110 130
@@ -504,8 +544,12 @@
 #neighbour 142 158
 #neighbour 143 156
 #neighbour 143 145
+#neighbour 143 157
+#neighbourspec 143 157 33
 #neighbour 144 161
 #neighbour 144 147
+#neighbour 144 158
+#neighbourspec 144 158 33
 #neighbour 145 146
 #neighbour 145 148
 #neighbour 146 154
@@ -523,7 +567,11 @@
 #neighbour 151 166
 #neighbour 151 167
 #neighbour 152 169
+#neighbour 152 191
+#neighbourspec 152 191 2
 #neighbour 153 171
+#neighbour 153 192
+#neighbourspec 153 192 2
 #neighbour 154 165
 #neighbour 155 164
 #neighbour 156 170
@@ -556,7 +604,13 @@
 #neighbour 175 177
 #neighbour 176 178
 #neighbour 177 179
+#neighbour 177 184
+#neighbourspec 177 184 33
+#neighbour 177 178
+#neighbourspec 177 178 2
 #neighbour 178 180
+#neighbour 178 184
+#neighbourspec 178 184 33
 #neighbour 179 183
 #neighbour 180 185
 #neighbour 181 192
@@ -621,6 +675,10 @@
 #neighbour 210 217
 #neighbour 211 213
 #neighbour 211 212
+#neighbour 211 223
+#neighbourspec 211 223 2
+#neighbour 211 222
+#neighbourspec 211 222 2
 #neighbour 212 219
 #neighbour 213 218
 #neighbour 214 222
@@ -632,6 +690,8 @@
 #neighbour 220 224
 #neighbour 221 225
 #neighbour 222 224
+#neighbour 222 223
+#neighbourspec 222 223 33
 #neighbour 223 225
 #neighbour 224 225
 
